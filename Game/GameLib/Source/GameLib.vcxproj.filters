@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル\Shader">
+      <UniqueIdentifier>{29f0814b-9426-4cc6-aaad-35ebe62b8122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{da9d5671-8122-4221-ba74-f098119388db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{bb577e82-797e-4104-a415-1ae7ee8c8b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderState">
+      <UniqueIdentifier>{bd2f85fe-a944-47d9-a426-453eadfc252b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{d792f4a1-e7be-4222-af8c-9b7459ba4237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{e44a6703-b8d9-4117-9553-e7bf8194f196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FPS">
+      <UniqueIdentifier>{044dc7ec-c5a9-49d6-9a0a-1e3e67871c4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowHelper.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPolygonManager.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManagerBase.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetBase.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorPolygon.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugManager.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSManager.h">
+      <Filter>FPS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowHelper.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPolygonManager.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManagerBase.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorPolygon.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetBase.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugManager.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSManager.cpp">
+      <Filter>FPS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\Resource\Shader\ShadowMap.fx">
+      <Filter>リソース ファイル\Shader</Filter>
+    </None>
+    <None Include="..\Resource\Shader\DepthOfField.fx">
+      <Filter>リソース ファイル\Shader</Filter>
+    </None>
+    <None Include="..\Resource\Shader\LightBloom.fx">
+      <Filter>リソース ファイル\Shader</Filter>
+    </None>
+    <None Include="..\Resource\Shader\GaussFilter.fx">
+      <Filter>リソース ファイル\Shader</Filter>
+    </None>
+    <None Include="..\Resource\Shader\Lambert.fx">
+      <Filter>リソース ファイル\Shader</Filter>
+    </None>
+    <None Include="..\Resource\Shader\ToneMapping.fx">
+      <Filter>リソース ファイル\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{5badf60a-2761-4aee-9004-a95987624480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain">
+      <UniqueIdentifier>{27acd284-f677-4b11-b487-2d5bd89344c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{012cb28b-5f7e-4e33-916a-7a066c83de4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Title">
+      <UniqueIdentifier>{a20d288b-de96-40f5-a0e8-aa7d50970004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Game">
+      <UniqueIdentifier>{b1553e63-c009-40e2-9e27-c1eb53f11c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Game\Player">
+      <UniqueIdentifier>{92f309d9-779c-40c7-b6f9-283defa4fb0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Loading">
+      <UniqueIdentifier>{8edc9213-0b0f-4d1f-bb36-1bec3a12f651}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>GameMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>GameMain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\Title\Model_Bg_1.png">
+      <Filter>リソース ファイル\Title</Filter>
+    </None>
+    <None Include="..\Resource\Title\Model_Bg_0.mqo">
+      <Filter>リソース ファイル\Title</Filter>
+    </None>
+    <None Include="..\Resource\Title\Model_Bg_0.png">
+      <Filter>リソース ファイル\Title</Filter>
+    </None>
+    <None Include="..\Resource\Title\Model_Bg_0.x">
+      <Filter>リソース ファイル\Title</Filter>
+    </None>
+    <None Include="..\Resource\Game\Player\Model_Player_Texture1.bmp">
+      <Filter>リソース ファイル\Game\Player</Filter>
+    </None>
+    <None Include="..\Resource\Game\Player\Model_Player.x">
+      <Filter>リソース ファイル\Game\Player</Filter>
+    </None>
+    <None Include="..\Resource\Loading\NowLoading.png">
+      <Filter>リソース ファイル\Loading</Filter>
+    </None>
+    <None Include="..\Resource\Loading\Circle0.png">
+      <Filter>リソース ファイル\Loading</Filter>
+    </None>
+    <None Include="..\Resource\Loading\Circle1.png">
+      <Filter>リソース ファイル\Loading</Filter>
+    </None>
+    <None Include="..\Resource\Loading\Circle2.png">
+      <Filter>リソース ファイル\Loading</Filter>
+    </None>
+    <None Include="..\Resource\Loading\Circle3.png">
+      <Filter>リソース ファイル\Loading</Filter>
+    </None>
+  </ItemGroup>
+</Project>

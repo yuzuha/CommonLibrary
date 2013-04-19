@@ -11,3 +11,11 @@
 *.lai
 *.la
 *.a
+
+# Configuration of My Project
+*.sdf
+Game/ipch/
+Game/GameLib/obj/
+Game/GameLib/bin/
+Game/GameMain/obj/
+Game/GameMain/bin/

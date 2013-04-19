@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameLib", "GameLib\Source\GameLib.vcxproj", "{635C1987-22C1-4B26-8A3E-67B79DF94E01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameMain", "GameMain\Source\GameMain.vcxproj", "{297063CD-233C-40E2-9D01-9ABC74B9DEF8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{635C1987-22C1-4B26-8A3E-67B79DF94E01} = {635C1987-22C1-4B26-8A3E-67B79DF94E01}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{635C1987-22C1-4B26-8A3E-67B79DF94E01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{635C1987-22C1-4B26-8A3E-67B79DF94E01}.Debug|Win32.Build.0 = Debug|Win32
+		{635C1987-22C1-4B26-8A3E-67B79DF94E01}.Release|Win32.ActiveCfg = Release|Win32
+		{635C1987-22C1-4B26-8A3E-67B79DF94E01}.Release|Win32.Build.0 = Release|Win32
+		{297063CD-233C-40E2-9D01-9ABC74B9DEF8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{297063CD-233C-40E2-9D01-9ABC74B9DEF8}.Debug|Win32.Build.0 = Debug|Win32
+		{297063CD-233C-40E2-9D01-9ABC74B9DEF8}.Release|Win32.ActiveCfg = Release|Win32
+		{297063CD-233C-40E2-9D01-9ABC74B9DEF8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
